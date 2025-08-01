@@ -1,0 +1,149 @@
+[
+  {
+    "name": "Apollo Hospital",
+    "type": "Hospital",
+    "location": "Hyderabad",
+    "lat": 17.4375,
+    "lng": 78.4483
+  },
+  {
+    "name": "Rainbow Children's Hospital",
+    "type": "Hospital",
+    "location": "Hyderabad",
+    "lat": 17.4208,
+    "lng": 78.4663
+  },
+  {
+    "name": "AIIMS Delhi",
+    "type": "Hospital",
+    "location": "Delhi",
+    "lat": 28.5672,
+    "lng": 77.2100
+  },
+  {
+    "name": "Fortis Hospital",
+    "type": "Hospital",
+    "location": "Delhi",
+    "lat": 28.5522,
+    "lng": 77.2664
+  },
+  {
+    "name": "CMC Hospital",
+    "type": "Hospital",
+    "location": "Vellore",
+    "lat": 12.9249,
+    "lng": 79.1350
+  },
+  {
+    "name": "Manipal Hospital",
+    "type": "Hospital",
+    "location": "Bangalore",
+    "lat": 12.9580,
+    "lng": 77.6446
+  },
+  {
+    "name": "KIMS Hospital",
+    "type": "Hospital",
+    "location": "Trivandrum",
+    "lat": 8.5069,
+    "lng": 76.9596
+  },
+  {
+    "name": "Aster Clinic",
+    "type": "Clinic",
+    "location": "Mumbai",
+    "lat": 19.0760,
+    "lng": 72.8777
+  },
+  {
+    "name": "Breach Candy Hospital",
+    "type": "Hospital",
+    "location": "Mumbai",
+    "lat": 18.9804,
+    "lng": 72.8070
+  },
+  {
+    "name": "Kokilaben Hospital",
+    "type": "Hospital",
+    "location": "Mumbai",
+    "lat": 19.1360,
+    "lng": 72.8333
+  }
+  ,
+  {
+    "name": "RIMS Government General Hospital",
+    "type": "Hospital",
+    "location": "Kadapa",
+    "contact": "08562-245678",
+    "lat": 14.4775,
+    "lng": 78.8231
+  },
+  {
+    "name": "Sri Ramakrishna Multi Speciality Hospital",
+    "type": "Hospital",
+    "location": "Kadapa",
+    "contact": "08562-225588",
+    "lat": 14.4712,
+    "lng": 78.8239
+  },
+  {
+    "name": "Apollo Clinic",
+    "type": "Clinic",
+    "location": "Kadapa",
+    "contact": "08562-667788",
+    "lat": 14.4750,
+    "lng": 78.8201
+  },
+  {
+    "name": "Sanjeevani Children's Clinic",
+    "type": "Clinic",
+    "location": "Kadapa",
+    "contact": "08562-334455",
+    "lat": 14.4738,
+    "lng": 78.8254
+  },
+  {
+    "name": "Padmavathi Nursing Home",
+    "type": "Hospital",
+    "location": "Kadapa",
+    "contact": "08562-221199",
+    "lat": 14.4703,
+    "lng": 78.8215
+  }
+
+
+,
+  {
+    "name": "Andhra Hospitals",
+    "type": "Hospital",
+    "location": "Vijayawada",
+    "contact": "0866-2477777",
+    "lat": 16.5122,
+    "lng": 80.6305
+  },
+  {
+    "name": "Ramesh Hospitals",
+    "type": "Hospital",
+    "location": "Vijayawada",
+    "contact": "0866-2485555",
+    "lat": 16.5104,
+    "lng": 80.6402
+  },
+  {
+    "name": "Manipal Super Specialty Hospital",
+    "type": "Hospital",
+    "location": "Vijayawada",
+    "contact": "0866-6789000",
+    "lat": 16.5150,
+    "lng": 80.6221
+  },
+  {
+    "name": "Sri Ramakrishna Clinic",
+    "type": "Clinic",
+    "location": "Vijayawada",
+    "contact": "0866-2444888",
+    "lat": 16.5068,
+    "lng": 80.6359
+  }
+]
+
