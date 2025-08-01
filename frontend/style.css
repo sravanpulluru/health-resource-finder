@@ -1,72 +1,122 @@
+/* style.css */
+
+/* === Base Styling === */
 body {
-  font-family: 'Segoe UI', sans-serif;
-  background-color: #121212;
+  background-color: #0f0f0f;
+  color: #e0e0e0;
+  font-family: 'Segoe UI', 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h4, .card-title {
   color: #ffffff;
+  font-weight: 600;
 }
 
+/* === Navbar === */
+.navbar {
+  background-color: #000000 !important;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar .btn {
+  border-radius: 12px;
+  padding: 0.4rem 1rem;
+}
+
+/* === Card Styling === */
 .card {
-  border-radius: 16px;
-  border: none;
-}
-
-input.form-control {
-  background-color: #1e1e1e;
-  color: #fff;
+  background-color: #1c1c1c !important;
   border: 1px solid #333;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
 }
 
-input.form-control::placeholder {
-  color: #aaa;
-}
-
-input.form-control:focus {
-  background-color: #2a2a2a;
-  border-color: #555;
-  box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.1);
-}
-
-.btn {
-  border-radius: 8px;
-}
-
-.card .card-title {
+.card-title {
   border-bottom: 1px solid #444;
   padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
 }
 
-#resourceResults .card,
-#donorResults .card {
-  background-color: #1c1c1c;
-  border-left: 5px solid #00bcd4;
-}
-
-#donorResults .card {
-  border-left-color: #dc3545;
-}
-input.form-control {
-  background-color: #1e1e1e;
-  color: #ffffff !important;  /* Make input text white */
-  border: 1px solid #333;
-}
-
-input.form-control::placeholder {
-  color: #aaa;  /* Placeholder gray */
-}
-
-input.form-control:focus {
+/* === Form Elements === */
+.form-control,
+.form-select {
   background-color: #2a2a2a;
-  color: #ffffff !important;  /* Ensure focus text is white */
-  border-color: #555;
-  box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.1);
-}
-select.form-control {
-  background-color: #1e1e1e;
-  color: #fff;
-  border: 1px solid #333;
-}
-input.form-control,
-select.form-control {
-  background-color: #1e1e1e;
-  color: #fff;
+  color: #ffffff;
   border: 1px solid #444;
+  border-radius: 10px;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: #0dcaf0;
+  box-shadow: 0 0 0 0.2rem rgba(13, 202, 240, 0.25);
+}
+
+/* === Buttons === */
+.btn-outline-light,
+.btn-danger,
+.btn-light {
+  border-radius: 12px;
+  font-weight: 600;
+  padding: 0.6rem 1.2rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn-outline-light:hover {
+  background-color: #ffffff;
+  color: #000;
+}
+
+.btn-danger:hover {
+  background-color: #bb2d3b;
+}
+
+.btn-light:hover {
+  background-color: #e2e6ea;
+  color: #000;
+}
+
+/* === Map Styling === */
+#map {
+  border: 2px solid #444;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+/* === List Results === */
+.list-group-item {
+  background-color: #2d2d2d;
+  color: #ffffff;
+  border: none;
+  margin-bottom: 0.5rem;
+  border-radius: 10px;
+}
+
+/* === Feedback Response Text === */
+.alert,
+.text-warning,
+.text-danger {
+  font-weight: 500;
+}
+
+/* === Responsive Enhancements === */
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-size: 1.2rem;
+  }
+
+  .card {
+    padding: 1.5rem;
+  }
+
+  .btn {
+    padding: 0.5rem 1rem;
+  }
 }
