@@ -1,0 +1,72 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.card {
+  border-radius: 16px;
+  border: none;
+}
+
+input.form-control {
+  background-color: #1e1e1e;
+  color: #fff;
+  border: 1px solid #333;
+}
+
+input.form-control::placeholder {
+  color: #aaa;
+}
+
+input.form-control:focus {
+  background-color: #2a2a2a;
+  border-color: #555;
+  box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.1);
+}
+
+.btn {
+  border-radius: 8px;
+}
+
+.card .card-title {
+  border-bottom: 1px solid #444;
+  padding-bottom: 0.5rem;
+}
+
+#resourceResults .card,
+#donorResults .card {
+  background-color: #1c1c1c;
+  border-left: 5px solid #00bcd4;
+}
+
+#donorResults .card {
+  border-left-color: #dc3545;
+}
+input.form-control {
+  background-color: #1e1e1e;
+  color: #ffffff !important;  /* Make input text white */
+  border: 1px solid #333;
+}
+
+input.form-control::placeholder {
+  color: #aaa;  /* Placeholder gray */
+}
+
+input.form-control:focus {
+  background-color: #2a2a2a;
+  color: #ffffff !important;  /* Ensure focus text is white */
+  border-color: #555;
+  box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.1);
+}
+select.form-control {
+  background-color: #1e1e1e;
+  color: #fff;
+  border: 1px solid #333;
+}
+input.form-control,
+select.form-control {
+  background-color: #1e1e1e;
+  color: #fff;
+  border: 1px solid #444;
+}
