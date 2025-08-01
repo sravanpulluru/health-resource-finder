@@ -6,10 +6,9 @@ const dotenv = require('dotenv');
 const cors = require('cors');
 const path = require('path');
 
-const resourceRoutes = require('./routes/resourceRoutes');
-const donorRoutes = require('./routes/donorRoutes');
-const authRoutes = require('./routes/authRoutes');
-
+const resourceRoutes = require('./backend/routes/resourceRoutes');
+const donorRoutes = require('./backend/routes/donorRoutes');
+const authRoutes = require('./backend/routes/authRoutes');
 dotenv.config();
 
 const app = express();
